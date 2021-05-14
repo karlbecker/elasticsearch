@@ -45,7 +45,7 @@ Jobs are created in a `STOPPED` state. You can start them with the
   alphanumeric string and uniquely identifies the data that is associated with
   the {rollup-job}. The ID is persistent; it is stored with the rolled up data.
   If you create a job, let it run for a while, then delete the job, the data
-  that the job rolled up is still be associated with this job ID. You cannot
+  that the job rolled up is still associated with this job ID. You cannot
   create a new job with the same ID since that could lead to problems with
   mismatched job configurations.
 
